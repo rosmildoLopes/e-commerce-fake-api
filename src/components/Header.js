@@ -8,12 +8,12 @@ const Header = () => {
 
   const { isOpen, setIsOpen } = useContext( SidebarContext)
   return (
-    <div>
+    <header className='bg-blue-400'>
       <div>Header</div>
       <div className='cursor-pointer flex ' onClick={ ()  => setIsOpen(!isOpen)}>
         <BsBag className='text-2xl' />
       </div>
-    </div>
+    </header>
   );
 };
 

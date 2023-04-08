@@ -8,9 +8,12 @@ import { FiTrash2 } from 'react-icons/fi';
 import CartItem from '../components/CartItem';
 // Import contexts
 import { SidebarContext } from '../contexts/SidebarContext';
+import { CartContext } from '../contexts/CartContext';
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
+  const { addToCart } = useContext(CartContext);
+
   return ( 
     <div className={`${ isOpen ? 'right-0' : '-right-full'} bg-white w-full fixed top-0 h-full
      shadow-2xl md:w-[35vw] lg:w-[30vw] transition-all duration-300 z-20 px-4 lg:px-[35px]`}>
