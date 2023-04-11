@@ -1,16 +1,81 @@
 {
-  "products" : [
+  "products": [
     {
       "id": 1,
+      "name": "Product One",
       "title": "product1",
-      "image":"./assets/product1.png",
+      "image": "./assets/product1.png",
       "price": 10
     },
     {
       "id": 2,
+      "name": "Product Two",
       "title": "product2",
-      "image":"./assets/product2.png",
+      "image": "./assets/product2.png",
       "price": 20
+    },
+    {
+      "id": 3,
+      "name": "Product Three",
+      "title": "product3",
+      "image": "./assets/product3.png",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "name": "Product Four",
+      "title": "product4",
+      "image": "./assets/product4.png",
+      "price": 40
+    },
+    {
+      "id": 5,
+      "name": "Product Five",
+      "title": "product5",
+      "image": "./assets/product5.png",
+      "price": 50
+    },
+    {
+      "id": 6,
+      "name": "Product Six",
+      "title": "product6",
+      "image": "./assets/product6.png",
+      "price": 60
+    },
+    {
+      "id": 7,
+      "name": "Product Seven",
+      "title": "product7",
+      "image": "./assets/product7.png",
+      "price": 70
+    },
+    {
+      "id": 8,
+      "name": "Product Eight",
+      "title": "product8",
+      "image": "./assets/product8.png",
+      "price": 80
+    },
+    {
+      "id": 9,
+      "name": "Product Nine",
+      "title": "product9",
+      "image": "./assets/product9.png",
+      "price": 90
+    },
+    {
+      "id": 10,
+      "name": "Product Ten",
+      "title": "product10",
+      "image": "./assets/product10.png",
+      "price": 100
+    },
+    {
+      "id": 11,
+      "name": "Product Eleven",
+      "title": "product11",
+      "image": "./assets/product11.png",
+      "price": 110
     }
   ]
 }
