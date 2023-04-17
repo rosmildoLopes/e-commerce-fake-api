@@ -1,5 +1,4 @@
 import React, { createContext, useState, useEffect } from "react";
-import database from '../db.json';
 
 // Create Context
 export const ProductContext = createContext();
@@ -11,7 +10,7 @@ const ProductProvider = ({ children }) => {
   //fetch products
   useEffect(() => {
     const fetchProducts = async () => {
-      const res = await fetch('http://localhost:5000/products');
+      const res = await fetch('https://fakestoreapi.com/products');
       const data = await res.json();
       setProducts(data);
     };

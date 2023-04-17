@@ -15,8 +15,8 @@ import { CartContext } from '../contexts/CartContext';
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
-  const { cart, clearCart } = useContext(CartContext);
-  const {itemAmount} = useContext(CartContext);
+  const { cart, clearCart, itemAmount, total } = useContext(CartContext);
+  
 
   return ( 
     <div className={`${ isOpen ? 'right-0' :'-right-full'} bg-white w-full fixed top-0 h-full
@@ -34,10 +34,10 @@ const Sidebar = () => {
           return <CartItem item={item} key={item.id}/>
         })}
       </div>
-      <div className='flex flex-col gap-y-3 py-4 mt-4 bg-green-500'>
+      <div className='flex flex-col gap-y-3 py-4 mt-4 bg-green-500 h-7  '>
         <div className=' flex justify-between items-center w-full' >
           <div className='uppercase font-semibold'>
-            <span className='mr-2'>Total :</span>
+            <span className='mr-2'>Total :</span>{parseFloat(total).toFixed(2)}
           </div>
           { /* clear cart icon */}
           <div onClick={clearCart}
