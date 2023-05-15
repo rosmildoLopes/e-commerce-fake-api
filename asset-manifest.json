@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-commerce-fake-api/static/css/main.f37d0e05.css",
+    "main.js": "/e-commerce-fake-api/static/js/main.bc744269.js",
+    "static/media/woman_hero.png": "/e-commerce-fake-api/static/media/woman_hero.d109717db264ec684e97.png",
+    "static/media/bg_hero.svg": "/e-commerce-fake-api/static/media/bg_hero.5b3a28da99dfd198982f.svg",
+    "static/media/logo.svg": "/e-commerce-fake-api/static/media/logo.7740ae04391d2ede26528c55d3b0102f.svg",
+    "index.html": "/e-commerce-fake-api/index.html",
+    "main.f37d0e05.css.map": "/e-commerce-fake-api/static/css/main.f37d0e05.css.map",
+    "main.bc744269.js.map": "/e-commerce-fake-api/static/js/main.bc744269.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f37d0e05.css",
+    "static/js/main.bc744269.js"
+  ]
+}
