@@ -1,4 +1,5 @@
 {
+  "homepage": "http://rosmildoLopes.github.io/e-commerce-fake-api",
   "name": "ecommerce-shop",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.19",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
